@@ -1,0 +1,65 @@
+.form-sign {
+    padding: 150px 0; 
+}
+    
+.form-container {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-title {
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-input {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.form-input input{
+
+    width: 90%;
+    height: 32px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 16px;
+    border: 1px solid grey;
+}
+.form-input:focus {
+    border-color: black;
+}
+
+.form-aside {
+    margin-top: 16px;
+}
+.form-policy {
+    font-size: 18px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.form-controls {
+    margin-top: 60px;
+}
+.form-controls button{
+    min-width: 142px;
+    height: 36px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.btn-back{
+    margin: 20px 12px;
+    margin-right: 186px;
+}
+.btn-sign {
+    color: white;
+    background-color: blue;
+}

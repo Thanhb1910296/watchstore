@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.topbar {
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: goldenrod;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    margin-left: 12.5%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    flex: 1;
+    cursor: pointer;
+}
+.logo img {
+    width: 180px;
+    height: 60px;
+}
+.top-menu {
+    flex: 1.25;
+}
+.top-menu > ul {
+    height: 100%;
+    display: flex;
+}
+.top-menu > ul > li {
+    padding: 0 12px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.top-menu-dropdown {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 100px;
+    opacity: 0;
+    background-color: white;
+    padding: 6px 10px;
+    border: 1px solid red;
+}
+.top-menu > ul li:hover .top-menu-dropdown{
+    display: block;
+    top: 56px;
+    opacity: 1;
+}
+.top-menu-dropdown li {
+    line-height: 24px;
+    justify-content: left;
+    text-align: center;
+}
+.top-menu-dropdown li a {
+    font-size: 14px;
+    text-align: left;
+}
+.top-menu-others {
+    flex: 0.25;
+}
+.top-menu-others ul {
+    display: flex;
+    height: 100%;
+}
+.top-menu-others ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    position: relative;
+}
+.top-menu-others ul li form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-menu-others ul li::before {
+    position: absolute;
+    height: 15px;
+    width: 1px;
+    background-color: #333;
+    right: 0;
+}
+.top-menu-others ul li:last-child::before {
+    display: none;
+}
+.top-menu-others ul i {
+    cursor: pointer;
+}
+
+
+.main {
+    padding: 100px 0 0;
+}
+.path {
+    margin-bottom: 50px;
+    display: flex;
+}
+.path p {
+    margin: 0 12px 0 0;
+    font-size: 20px;
+    color: red;
+}
+
+.left {
+    width: 20%;
+}
+.left ul li {
+    padding: 12px 0;
+}
+.left ul li > a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.left ul li ul li {
+    padding-left: 10px;
+    
+}
+.left-items.block ul {
+    display: block;
+}
+.left ul li ul li a {
+    color: #333333;
+    font-size: 18px;
+    color: blue;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.right-items:first-child {
+    flex: 2;
+    font-size: 26px;
+    font-weight: bold;
+}
+.right-items {
+    flex: 1;
+    padding: 0 12px;
+}
+.right-items button{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.right-items select{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.right-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.right-content-item {
+    width: calc(25% - 2px);
+    text-align: center;
+    padding: 12px 0;
+}
+.right-content-item h1 {
+    font-size: 14px;
+    margin-top: 6px;
+    text-align: left;
+    width: 90%;
+    height: 10%;
+    margin-left: 7.5%;
+}
+.right-content-item img{
+    width: 240px;
+    height: 280px;
+    border: 2px solid black;
+}
+.right-content-item p {
+    font-size: 18px;
+    color: blue;
+}
+
+.right-pagination {
+    margin: 30px 0 20px;
+    width: 100%;
+}
+.right-page-number ul {
+    margin-left: 82.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.right-page-number ul li {
+    margin-left: 2px;
+    padding: 2px 6px;
+    border: 1px solid black;
+}
+.right-page-number ul li:hover {
+    background-color: gold;
+}
+
+
+.footer {
+    padding: 100px 0 0;
+    border-top: 1px solid black;
+}
+.footer-container {
+    display: flex;
+
+}
+.footer-copyright {
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}

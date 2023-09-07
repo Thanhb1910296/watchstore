@@ -1,0 +1,145 @@
+.detail-main {
+    padding: 120px 0;
+}
+.detail-container {
+    max-width: 1200px;
+    margin: auto;
+}
+.detail-path {
+    margin-bottom: 30px;
+    display: flex;
+}
+.detail-path p {
+    margin: 0 12px;
+    font-size: 20px;
+    color: red;
+}
+
+.detail-product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-product-left {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-product-image {
+    width: 360px;
+    height: 480px;
+    border: 1px solid black;
+}
+.detail-product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail-product-right {
+    width: 50%;
+    padding-left: 20px;
+}
+.detail-product-price {
+    margin: 12px 0;
+    font-size: 20px;
+    color: blue;
+}
+.detail-product-right-button button {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 20px 0 12px;
+}
+.detail-product-right-button button:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.detail-product-right-button button:first-child:hover {
+    background-color: black;
+    color: gold;
+}
+.detail-product-right-button button:last-child {
+    border: 2px solid skyblue;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.detail-product-right-button i {
+    display: flex;
+    padding-left: 32px;
+}
+.detail-product-description {
+    font-size: 18px;
+}
+
+
+.detail-related {
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.detail-related-title {
+    margin: 20px 0;
+}
+.detail-related-title p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detail-related-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+.detail-related-products {
+    width: 14%;
+    text-align: center;
+    padding: 0 6px;
+}
+.detail-related-products img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.detail-related-products h1 {
+    font-size: 14px;
+    margin-top: 6px;
+}
+.detail-related-products p {
+    font-size: 16px;
+    margin-top: 6px;
+    color: blue;
+}
+.detail-comment-title p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.detail-comment-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 0 80px;
+}
+.detail-comment {
+    margin: 20px 0 10px 360px;
+    width: 100%;
+    align-items: center;
+}
+.detail-comment lable {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-comment input {
+    width: 540px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    font-size: 16px;
+    
+}
+#post {
+    margin-top: 80px;
+}
